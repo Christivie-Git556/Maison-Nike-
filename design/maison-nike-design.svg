@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1100" viewBox="0 0 1440 1100">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff9fc"/><stop offset=".55" stop-color="#f7e9ff"/><stop offset="1" stop-color="#ead8ff"/></linearGradient>
+ <linearGradient id="hero" x2="1" y2="1"><stop stop-color="#f9dff0"/><stop offset=".55" stop-color="#d9c2fa"/><stop offset="1" stop-color="#a981d9"/></linearGradient>
+ <linearGradient id="purple" x2="1" y2="1"><stop stop-color="#b45be0"/><stop offset="1" stop-color="#6730a0"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5a3478" flood-opacity=".14"/></filter>
+ </defs>
+ <rect width="1440" height="1100" fill="url(#bg)"/>
+ <rect x="34" y="24" width="1372" height="84" rx="26" fill="#fff" filter="url(#shadow)"/>
+ <text x="72" y="76" font-family="Arial,sans-serif" font-size="31" font-weight="900" fill="#302044">MAISON <tspan fill="#a342d0">NIKE</tspan></text>
+ <text x="74" y="94" font-family="Arial" font-size="10" fill="#765d88">STYLE • CONFORT • PERFORMANCE</text>
+ <rect x="450" y="44" width="430" height="42" rx="22" fill="#f8f1fb" stroke="#eadcf4"/><text x="476" y="70" font-family="Arial" font-size="15" fill="#887696">Rechercher une chaussure...</text>
+ <text x="1040" y="72" font-family="Arial" font-size="15" fill="#302044">♙ Compte</text><text x="1170" y="72" font-family="Arial" font-size="15" fill="#302044">♡ Favoris</text><text x="1290" y="72" font-family="Arial" font-size="15" fill="#302044">🛒 Panier</text>
+ <rect x="34" y="124" width="1372" height="54" rx="22" fill="#fff" opacity=".88"/>
+ <text x="90" y="158" font-family="Arial" font-size="16" font-weight="700" fill="#8b43bf">⌂ Accueil</text><text x="300" y="158" font-family="Arial" font-size="16" fill="#302044">▦ Catalogue</text><text x="510" y="158" font-family="Arial" font-size="16" fill="#302044">✦ Promotions</text><text x="740" y="158" font-family="Arial" font-size="16" fill="#302044">ⓘ À propos</text><text x="940" y="158" font-family="Arial" font-size="16" fill="#302044">✉ Contact</text>
+ <rect x="34" y="196" width="1372" height="380" rx="34" fill="url(#hero)" filter="url(#shadow)"/>
+ <text x="92" y="310" font-family="Arial" font-size="58" font-weight="900" fill="#302044">MAISON</text><text x="92" y="374" font-family="Arial" font-size="64" font-weight="900" fill="#8d3fbd">NIKE</text>
+ <text x="96" y="423" font-family="Arial" font-size="25" font-weight="700" fill="#39234e">Le meilleur du style,</text><text x="96" y="456" font-family="Arial" font-size="25" font-weight="700" fill="#39234e">à portée de main !</text>
+ <rect x="94" y="488" width="250" height="54" rx="27" fill="url(#purple)"/><text x="126" y="522" font-family="Arial" font-size="17" font-weight="700" fill="#fff">Découvrir le catalogue →</text>
+ <ellipse cx="925" cy="494" rx="265" ry="35" fill="#fff" opacity=".55"/><rect x="690" y="443" width="470" height="70" rx="25" fill="#d6b9ed" stroke="#fff" stroke-width="4"/>
+ <path d="M730 405 Q780 390 830 360 L915 322 Q955 300 1005 330 L1110 390 Q1140 408 1105 425 L790 435 Q735 435 730 405Z" fill="#fff" stroke="#8d69b5" stroke-width="7"/>
+ <path d="M824 365 Q905 342 970 321 Q1000 314 1035 345 L1080 378 Q1020 389 960 382 L875 402Z" fill="#d8c0f4"/>
+ <path d="M900 350 Q955 338 1014 353 Q980 375 942 380" fill="none" stroke="#8b43bf" stroke-width="12" stroke-linecap="round"/>
+ <path d="M805 383 L910 373 M820 395 L925 385 M840 407 L940 397" stroke="#9e83bb" stroke-width="5" stroke-linecap="round"/>
+ <text x="1220" y="300" font-family="Arial" font-size="19" font-style="italic" fill="#563a70">Trouve ton style</text><text x="1240" y="328" font-family="Arial" font-size="19" font-style="italic" fill="#563a70">à chaque pas ♡</text>
+ <text x="60" y="635" font-family="Arial" font-size="34" font-weight="900" fill="#302044">Nos <tspan fill="#a342d0">collections</tspan></text><text x="1275" y="634" font-family="Arial" font-size="16" fill="#7e3cb0">Voir tout →</text>
+ <g font-family="Arial" filter="url(#shadow)">
+ <rect x="48" y="662" width="250" height="270" rx="24" fill="#fff"/><rect x="318" y="662" width="250" height="270" rx="24" fill="#fff"/><rect x="588" y="662" width="250" height="270" rx="24" fill="#fff"/><rect x="858" y="662" width="250" height="270" rx="24" fill="#fff"/><rect x="1128" y="662" width="250" height="270" rx="24" fill="#fff"/>
+ </g>
+ <g fill="#f2e9fa"><rect x="68" y="682" width="210" height="150" rx="18"/><rect x="338" y="682" width="210" height="150" rx="18"/><rect x="608" y="682" width="210" height="150" rx="18"/><rect x="878" y="682" width="210" height="150" rx="18"/><rect x="1148" y="682" width="210" height="150" rx="18"/></g>
+ <g fill="none" stroke="#8b68b0" stroke-width="8" stroke-linecap="round"><path d="M90 790 Q125 755 165 755 L230 790 Q250 805 220 810 L110 810Z"/><path d="M360 790 Q395 755 435 755 L500 790 Q520 805 490 810 L380 810Z"/><path d="M630 790 Q665 755 705 755 L770 790 Q790 805 760 810 L650 810Z"/><path d="M900 790 Q935 755 975 755 L1040 790 Q1060 805 1030 810 L920 810Z"/><path d="M1170 790 Q1205 755 1245 755 L1310 790 Q1330 805 1300 810 L1190 810Z"/></g>
+ <g font-family="Arial" fill="#302044" font-size="16" font-weight="700"><text x="70" y="865">Nike Air Force 1</text><text x="340" y="865">Nike Dunk Low</text><text x="610" y="865">Air Max 270</text><text x="880" y="865">Puma Suede</text><text x="1150" y="865">Nike Revolution</text></g>
+ <g font-family="Arial" font-size="20" font-weight="900" fill="#d83d9c"><text x="70" y="902">Prix à confirmer</text><text x="340" y="902">Prix à confirmer</text><text x="610" y="902">Prix à confirmer</text><text x="880" y="902">Prix à confirmer</text><text x="1150" y="902">Prix à confirmer</text></g>
+ <rect x="34" y="958" width="1372" height="92" rx="28" fill="#fff" opacity=".9"/>
+ <g font-family="Arial" fill="#302044"><text x="100" y="1000" font-size="19" font-weight="700">🚚 Livraison rapide</text><text x="100" y="1025" font-size="14">Partout en RDC</text><text x="420" y="1000" font-size="19" font-weight="700">♢ Paiement sécurisé</text><text x="420" y="1025" font-size="14">Commande en confiance</text><text x="780" y="1000" font-size="19" font-weight="700">☏ Service client</text><text x="780" y="1025" font-size="14">À votre écoute</text><text x="1100" y="1000" font-size="19" font-weight="700">✧ Offres exclusives</text><text x="1100" y="1025" font-size="14">Nouveautés et promotions</text></g>
+ </svg>
