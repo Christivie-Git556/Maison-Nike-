@@ -1,40 +1,38 @@
-# Design du site MAISON NIKE
+# Direction artistique — MAISON NIKE LUXURY
 
-Cette section regroupe la direction artistique et la maquette de l'interface de la boutique en ligne de chaussures, pour la vente en gros et au détail.
+Cette section regroupe la nouvelle identité visuelle premium de la boutique en ligne.
 
-## Maquette visuelle
+## Concept
+Une boutique de chaussures inspirée du luxe discret : élégance intemporelle, matières naturelles, compositions éditoriales, espaces généreux et détails raffinés. L'interface doit rester simple à parcourir et mettre les chaussures au premier plan.
 
-Ouvrir [maison-nike-design.svg](./maison-nike-design.svg) pour visualiser la proposition de page d'accueil.
-
-## Identité visuelle
-
+## Palette
 | Usage | Couleur | Code |
 |---|---|---|
-| Fond principal | Blanc crème | `#FFF9FC` |
-| Fond secondaire | Rose poudré | `#F8DCEC` |
-| Accent décoratif | Lilas | `#DCC8FA` |
-| Boutons et liens actifs | Violet doux | `#8B4BC6` |
-| Titres et textes | Violet profond | `#302044` |
+| Fond principal | Ivoire | `#F8F5EF` |
+| Accent précieux | Champagne | `#D6BD91` |
+| Titres et navigation | Brun espresso | `#30251F` |
+| Surfaces secondaires | Beige sable | `#E9DFD1` |
+| Accent secondaire | Olive | `#66715B` |
+| Blanc | Blanc pur | `#FFFFFF` |
 
-Style recherché : doux, élégant, moderne, lumineux, avec des cartes arrondies, des ombres légères et des visuels de chaussures mis en valeur.
+## Typographies
+- Cormorant Garamond : titres éditoriaux, nom de marque et prix.
+- Manrope : navigation, textes, boutons et éléments fonctionnels.
 
-## Interfaces à réaliser
+## Principes d'interface
+1. En-tête aéré avec identité de marque, recherche et panier.
+2. Navigation sobre en capitales espacées.
+3. Accueil éditorial avec grande accroche et visuel produit.
+4. Catalogue en grille régulière, filtres discrets et cartes épurées.
+5. Mise en avant de la vente en gros et au détail.
+6. Présentation de la maison et coordonnées en pied de page.
+7. Adaptation responsive ordinateur, tablette et mobile.
+8. Contrastes lisibles, états de focus et respect de la préférence de réduction des animations.
 
-1. **Accueil** : présentation de MAISON NIKE, recherche, promotions, nouveautés et accès au catalogue.
-2. **Catalogue** : liste des chaussures avec filtres par catégorie, prix, pointure, couleur et disponibilité.
-3. **Détail produit** : galerie de photos, description, prix, sélection de pointure/couleur, stock et ajout au panier.
-4. **Panier et commande** : articles sélectionnés, modification des quantités, récapitulatif et validation de commande.
-5. **Inscription et connexion** : création de compte et authentification des clients.
-6. **Suivi de commande** : consultation de l'état et de l'historique des commandes.
-7. **Administration** : gestion des produits, tailles, couleurs, stocks, commandes et clients.
-8. **À propos et contact** : présentation de l'entreprise et formulaire de contact.
+## Pages et fonctions prévues
+Accueil, catalogue, détail produit, panier et commande, inscription/connexion, suivi de commande, administration, à propos et contact.
 
 ## Catalogue de référence
+Nike Air Force 1 '07, Nike Dunk Low Panda, Nike Air Max 270, Adidas Ultraboost, Puma Suede Classic, Nike Revolution, baskets classiques femme et chaussures cuir élégantes.
 
-Le catalogue de travail mentionne notamment Nike Air Force 1 '07, Nike Air Max 270, Adidas Ultraboost, Nike Dunk Low Panda, Puma Suede Classic, chaussures classiques en cuir, baskets classiques pour femmes et Nike Revolution.
-
-**Important :** les prix, tailles et disponibilités de la maquette sont illustratifs. Ils doivent être remplacés par les informations réelles de MAISON NIKE avant la mise en production.
-
-## Adaptation
-
-Prévoir une interface responsive pour ordinateur, tablette et téléphone. Les pages et fonctions doivent être reliées à la base de données et aux règles de gestion définies dans le backlog du projet.
+**Important :** les prix, tailles, images et disponibilités actuels sont des données de démonstration à vérifier avant toute utilisation commerciale.
