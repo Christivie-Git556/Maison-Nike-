@@ -16,3 +16,38 @@ footer{background:#050505;border-top:1px solid #ffffff1b;color:#fff;padding:54px
 @media(max-width:1050px){.nav{gap:24px}.hero{min-height:500px}.hero-art{height:370px}.category-grid{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(3,1fr)}.brand-list{justify-content:center;gap:25px}.footer-main{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:720px){.announcement{font-size:8px;gap:8px;letter-spacing:.3px;height:32px}.announcement span:last-child{display:none}.site-header{padding:14px 5%;flex-wrap:wrap}.brand{min-width:0}.brand-symbol{width:40px;height:40px}.brand-wordmark strong{font-size:16px}.brand-wordmark b{font-size:19px}.search{order:3;width:100%;max-width:none}.header-actions{margin-left:auto;gap:8px}.text-action span,.cart-button span{display:none}.cart-button{padding:8px 11px}.menu-toggle{display:block;font-size:22px}.nav{display:none;position:absolute;z-index:9;top:145px;left:0;right:0;flex-direction:column;gap:0;padding:8px 5%;background:#111;border-bottom:1px solid #d9a94f66}.nav.open{display:flex}.nav a{padding:13px 4px;border-bottom:1px solid #ffffff14}.nav a:after{display:none}.hero{margin-top:10px;grid-template-columns:1fr;min-height:680px;padding:38px 7% 43px}.hero:before{background:linear-gradient(180deg,#090909 0%,#090909f2 43%,#09090955 100%)}h1{font-size:clamp(43px,12vw,62px);letter-spacing:-2px}.hero-copy>p{font-size:12px}.hero-art{height:290px;margin-top:4px}.hero-stamp{top:0;right:0}.hero-side-note{font-size:17px;bottom:10px}.hero-bottom-line{bottom:12px}.brands{padding-top:28px}.brand-list{gap:17px 23px}.brand-list span{font-size:13px}.categories{padding-top:52px}.section-heading h2,.about h2{font-size:34px}.category-grid{gap:9px}.category-card{height:160px}.category-copy{left:12px;bottom:13px}.category-copy strong{font-size:22px}.category-copy small{font-size:6px}.catalog-section{padding-top:62px;padding-bottom:58px}.catalog-tools{align-items:flex-start;flex-direction:column}.filters{gap:6px}.filter{padding:8px 9px;font-size:7px}.catalog-tools select{width:100%}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-card{padding:6px}.product-image{height:150px}.product-info{padding:10px 3px 4px}.product-info h3{font-size:15px}.price{font-size:17px}.campaign{grid-template-columns:1fr}.campaign-image{height:220px}.campaign-copy{padding:32px 7% 45px}.campaign-copy h2{font-size:45px}.about{padding-top:55px;padding-bottom:60px;gap:18px;align-items:flex-start}.about-mark{flex-basis:75px;height:75px;font-size:27px}.about-mark small{font-size:5px}.about h2{font-size:28px}.about p{font-size:10px}.footer-main{grid-template-columns:1fr 1fr;gap:26px 16px}.footer-brand{grid-column:1/3}.copyright{font-size:7px;gap:10px}.detail-layout{grid-template-columns:1fr}.detail-layout img{max-height:230px}.product-dialog,.account-dialog{padding:22px}}
 @media(max-width:390px){.category-grid{grid-template-columns:1fr}.category-card{height:175px}.hero-actions{gap:14px;flex-wrap:wrap}.brand-list{gap:14px}.product-image{height:130px}.product-info h3{font-size:14px}.footer-main{grid-template-columns:1fr}.footer-brand{grid-column:auto}}
+
+
+/* MAISON NIKE — finition premium du catalogue */
+.catalog-section{position:relative}
+.catalog-section:before{content:"";position:absolute;top:35px;left:4.5%;width:54px;height:1px;background:var(--gold)}
+.product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.product-card{padding:0;background:linear-gradient(155deg,#1b1915,#100f0d);border:1px solid #c6a46a26;border-radius:2px}
+.product-card:hover{border-color:#d9a94f;transform:translateY(-7px);box-shadow:0 24px 55px #0009}
+.product-image{height:270px;background:radial-gradient(ellipse at 50% 48%,#fff 0%,#eeeae2 68%,#d9d4ca 100%);margin:0}
+.product-image img{object-fit:contain;padding:14px;mix-blend-mode:multiply;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.product-card:hover .product-image img{transform:scale(1.09) rotate(-2deg)}
+.product-info{padding:17px 17px 16px}
+.product-category{letter-spacing:2px}
+.product-info h3{font-size:20px;min-height:48px;line-height:1.2}
+.product-description{font-size:10px;line-height:1.6;min-height:16px}
+.product-bottom{padding-top:13px}
+.add-btn{border-radius:50%;width:38px;height:38px;font-size:22px}
+.tag{top:13px;left:13px;border-radius:1px;letter-spacing:1.1px;padding:7px 10px}
+.favorite{top:12px;right:12px;box-shadow:0 4px 15px #0002}
+.catalog-tools select{border-radius:2px;min-width:175px}
+.filter{border-radius:22px;padding:10px 16px;letter-spacing:.35px}
+.filter.active,.filter:hover{box-shadow:0 5px 16px #d9a94f24}
+.section-heading h2{letter-spacing:-1.4px}
+.hero{border:1px solid #d9a94f20}
+.hero-art img{object-fit:contain;padding:12px}
+.category-card{border:1px solid #d9a94f20}
+.category-card img{filter:brightness(.76) saturate(.72)}
+.primary-btn{letter-spacing:.35px}
+.product-dialog{border-radius:3px}
+.detail-layout img{background:radial-gradient(ellipse,#fff,#e7e2d9);object-fit:contain;padding:12px;mix-blend-mode:normal}
+.detail-layout h2{line-height:1.08}
+.detail-layout select{border-radius:2px}
+@media(max-width:1050px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.product-image{height:235px}}
+@media(max-width:720px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.product-image{height:175px}.product-info{padding:12px 10px}.product-info h3{font-size:16px;min-height:39px}.product-description{font-size:8px}.product-bottom{gap:6px}.price{font-size:16px}.add-btn{width:32px;height:32px}.catalog-section:before{left:5%}}
+@media(max-width:390px){.product-image{height:145px}.product-info{padding:10px 7px}.product-info h3{font-size:14px}}
